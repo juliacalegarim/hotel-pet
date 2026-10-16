@@ -1,3 +1,4 @@
+
 <script setup>
 import { RouterLink } from 'vue-router';
 </script>
@@ -10,10 +11,7 @@ import { RouterLink } from 'vue-router';
         active-class="active"
         to="/pets"
       >
-        <i
-          class="bi bi-heart me-2"
-          aria-hidden="true"
-        ></i>
+        <i class="bi bi-heart me-2" aria-hidden="true"></i>
         Pets
       </RouterLink>
 
@@ -22,23 +20,29 @@ import { RouterLink } from 'vue-router';
         active-class="active"
         to="/pets/novo"
       >
-        <i
-          class="bi bi-plus-circle me-2"
-          aria-hidden="true"
-        ></i>
+        <i class="bi bi-plus-circle me-2" aria-hidden="true"></i>
         Novo pet
       </RouterLink>
 
-      <span
-        class="nav-link text-body-secondary"
-        aria-disabled="true"
+      <hr class="my-2" />
+
+      <RouterLink
+        class="nav-link"
+        active-class="active"
+        to="/tutores"
       >
-        <i
-          class="bi bi-people me-2"
-          aria-hidden="true"
-        ></i>
-        Tutores <small class="ms-1">(em breve)</small>
-      </span>
+        <i class="bi bi-people me-2" aria-hidden="true"></i>
+        Tutores
+      </RouterLink>
+
+      <RouterLink
+        class="nav-link"
+        active-class="active"
+        to="/tutores/novo"
+      >
+        <i class="bi bi-person-plus me-2" aria-hidden="true"></i>
+        Novo tutor
+      </RouterLink>
     </div>
   </nav>
 </template>
