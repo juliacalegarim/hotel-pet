@@ -5,8 +5,22 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('../views/HomeView.vue'),
+      redirect: '/pets',
+    },
+    {
+      path: '/pets',
+      name: 'pets',
+      component: () => import('../views/PetsView.vue'),
+    },
+    {
+      path: '/pets/novo',
+      name: 'novo-pet',
+      component: () => import('../views/AddPetView.vue'),
+    },
+    {
+      path: '/pets/:id',
+      name: 'detalhes-pet',
+      component: () => import('../views/PetDetailsView.vue'),
     },
   ],
 });
