@@ -1,4 +1,3 @@
-
 <script setup>
 import { RouterLink } from 'vue-router';
 </script>
@@ -23,8 +22,6 @@ import { RouterLink } from 'vue-router';
         <i class="bi bi-plus-circle me-2" aria-hidden="true"></i>
         Novo pet
       </RouterLink>
-
-      <hr class="my-2" />
 
       <RouterLink
         class="nav-link"

@@ -6,9 +6,28 @@
       "telefone": "47999990000"
     },
     {
-      "id": "2",
-      "nome": "Carlos",
-      "telefone": "47988880000"
+      "nome": "pietra",
+      "telefone": "(47) 99966-5040",
+      "id": "ycFTbi03Mbk"
+    },
+    {
+      "nome": "kariny",
+      "telefone": "(47) 99966-5040",
+      "id": "o93eV5_3GN8"
+    },
+    {
+      "nome": "kariny",
+      "telefone": "47999665040",
+      "cpfCnpj": "222.222.222-22",
+      "email": "capanemakariny@gmail.com",
+      "dataNascimento": "2026-10-17",
+      "rua": "quati",
+      "numero": "24",
+      "bairro": "itinga",
+      "cidade": "joinville",
+      "estado": "SC",
+      "cep": "22222-22",
+      "id": "xQTytaPXK_4"
     }
   ],
   "pets": [
@@ -19,17 +38,17 @@
       "tutorId": "1"
     },
     {
-      "nome": "Chuvisco",
-      "especie": "Gato",
-      "tutorId": "2",
-      "id": "wvf0kMTJ8S0"
+      "nome": "mo campos",
+      "especie": "Cachorro",
+      "tutorId": "ycFTbi03Mbk",
+      "id": "ox2uiRZ0VgI"
     },
     {
-      "nome": "Amora",
-      "especie": "Hamster",
-      "tutorId": "1",
-      "id": "V9bTKiCwfNE"
+      "nome": "be",
+      "especie": "Gato",
+      "tutorId": "o93eV5_3GN8",
+      "id": "EKpMpSJa6PA"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
-}n
+}
